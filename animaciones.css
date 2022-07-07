@@ -1,0 +1,37 @@
+.menu__nav__item:hover{
+    text-decoration: underline;
+}
+.menu__nav__deslizado{
+
+    background-color: var(--cor-de-fondo-menu-y-footer);
+    /*border: 2px solid white;*/
+    width: var(--wid-de-menu-nav);
+    padding: 15px 0;
+    /*align-self: baseline;*/
+    place-self: baseline flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+
+}
+.title__network__item:hover{
+    background-color: #e2d5ca;
+    filter: invert(100%);
+    /*border: 2px solid gray;*/
+    /*padding: 5px;*/
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.about__container:hover{
+    /*border: 4px solid var(--cor-de-link);*/
+    transform: scale(1.05);
+}
+
+.academic__courses__box:hover{
+
+    /*border: 4px solid rgb(165, 192, 216);*/
+    transform: scale(1.05);
+    
+}
